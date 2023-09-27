@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    {% load static %}
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  </head>
+  <body>
+    <p>PAGE-1 OF THE TEMPLATE</p>
+      <input type="text" name="firstName" id="firstName" placeholder="FIRST NAME" ><br><br>
+      <input type="text" name="lastName" id="lastName" placeholder="LAST NAME" ><br><br>
+      <input type="email" name="email" id="email" placeholder="EMAIL" ><br><br>
+      <input type="text" name="walletAddress" id="walletAddress" placeholder="WALLET ADDRESS" ><br><br>
+      <input type="text" name="streetAddress1" id="streetAddress1" placeholder="STREET ADDRESS LINE 1" ><br><br>
+      <input type="text" name="streetAddress2" id="streetAddress2" placeholder="STREET ADDRESS LINE 2" ><br><br>
+      <input type="text" name="city" id="city" placeholder="CITY" ><br><br>
+      <input type="text" name="rsp" id="rsp" placeholder="REGION/STATE/PROVINCE" ><br><br>
+      <input type="text" name="zip" id="zip" placeholder="POSTAL/ZIP" ><br><br>
+      <input type="text" name="country" id="country" placeholder="COUNTRY" ><br><br>
+      <input type="button" onclick="submitForm()" id="proceedToPayment" value="Proceed to Payment">
+  </body>
+  <script src="{% static 'eshop/page-1.js' %}"></script>
+</html>
